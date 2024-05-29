@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Img/callWindow.png</file>
+        <file>Img/endCall.png</file>
+        <file>Img/mainWindow.png</file>
+        <file>Img/startCall.png</file>
+        <file>map.html</file>
+        <file>Img/Docs.png</file>
+    </qresource>
+</RCC>

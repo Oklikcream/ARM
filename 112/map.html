@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Создание и удаление</title>
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=b45ff911-2115-4525-9143-19e3447d507b" type="text/javascript">
+	</script>
+    <script type="text/javascript">
+	ymaps.ready(init);
+        function init(){
+            var myMap = new ymaps.Map("map", {
+                center: [55.76, 37.64],
+                zoom: 7
+            });
+        }
+	</script>
+</head>
+
+<body>
+<div id="map" style="width: 600px; height: 400px"></div>
+</body>
+
+</html>
